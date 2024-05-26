@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"> </script>
+</head>
+<body>
+    <div class="heder">
+        <h1> Where in the  world?</h1>
+        <button id="theme-toggle"> ☾ dark mode</p></button>
+    </div>
+    <div class="section1">
+        <form name="search" id="select">
+            <input type="text" id="search-input"  placeholder="Search for a Country">
+        </form>
+        <label for="myview">Choose a region:</label>
+        <select name="view" id="myview">
+            <option value="" disabled selected>Filter by region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+    </div>
+
+    <div id="main-section" class="main-section"></div>
+    <div id="count-det" class="count-det"></div>
+    <button id="back-button">back</button>
+</body>
+</html>
